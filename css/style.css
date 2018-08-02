@@ -26,3 +26,6 @@ figcaption {
 }
 
 /* Id selector */
+#logo {
+  background-color: aqua;
+}
