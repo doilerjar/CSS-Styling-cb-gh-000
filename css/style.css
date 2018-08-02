@@ -38,3 +38,19 @@ figcaption {
 #logo h2 {
   font-family: "Elsie Swash Caps", cursive;
 }
+
+/* Psuedo */
+/* combining both descendent and Psuedo */
+#details a:link, #details a:visisted {   /* multiple */
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details: a:active {
+  color: red;
+}
